@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: 💬 Questions & Discussions
+    url: https://github.com/Modular-Content/modularwork-public/discussions
+    about: Please use GitHub Discussions for questions, support and general conversations.
+
+  - name: 🔒 Report a Security Vulnerability
+    url: https://github.com/Modular-Content/modularwork-public/blob/main/SECURITY.md
+    about: Please follow the Security Policy when reporting vulnerabilities.

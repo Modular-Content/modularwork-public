@@ -1,0 +1,71 @@
+name: Bug Report
+description: Report a reproducible bug or unexpected behavior.
+title: "[Bug]: "
+labels:
+  - bug
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report a bug.
+
+        Before submitting, please verify that:
+        - the issue has not already been reported;
+        - you are using a supported version;
+        - the behavior can be reproduced.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Briefly describe the problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to Reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: ModularWork Version
+      placeholder: v0.1.0
+
+  - type: input
+    id: gmod
+    attributes:
+      label: Garry's Mod Branch
+      placeholder: x86-64
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Screenshots
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
