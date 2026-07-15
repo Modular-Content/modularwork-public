@@ -49,6 +49,7 @@ Use GitHub Discussions for:
 * https://github.com/Modular-Content/mw-coordinator
 * https://github.com/Modular-Content/modularwork-template
 * https://github.com/Modular-Content/modularwork-public
+* https://discord.gg/8bwkakMuRK
 
 ---
 
